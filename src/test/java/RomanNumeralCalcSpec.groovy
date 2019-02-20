@@ -7,17 +7,10 @@ import spock.lang.Unroll
 class RomanNumeralCalcSpec extends Specification {
 
     // Defines the test cases for the calculations for the mathematical operations between 2 roman numerals
-<<<<<<< HEAD
     /*  @Unroll
     def "Calculating roman numeral mathematical operations"()
    {
        given:'Two roman numeral and the #operation to be performed matches #expected'
-=======
-   @Unroll
-    def "Calculating roman numeral mathematical operations"()
-   {
-       given:'Two roman numeral and the operation to be performed matches #expected'
->>>>>>> 7e9baea5b9d780098290a04c036ffe3116a3bd2a
        RomanNumeralCalc calc=new RomanNumeralCalc()
        when:'the operation and the values are valid and calls the calculate method'
        def romanVal=calc.calculate(num1,num2, operation as char)
@@ -27,7 +20,6 @@ class RomanNumeralCalcSpec extends Specification {
        num1|num2|operation|expected
        20|900|'-'|"DCCCLXXX"
        2|800|'*'|"MDC"
-<<<<<<< HEAD
        16|8|"+"|"XXIV"
        100|1000|"+"|"MC"
 */
@@ -64,16 +56,4 @@ def  "Rejecting invalid inputs from the user"()
 
 
     }
-=======
-
-
-
-
-
-
-
-
-   }
-
->>>>>>> 7e9baea5b9d780098290a04c036ffe3116a3bd2a
 }
