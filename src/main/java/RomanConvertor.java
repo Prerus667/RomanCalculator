@@ -5,6 +5,7 @@ import java.util.TreeMap;
 public class RomanConvertor {
 
 
+<<<<<<< HEAD
     public final static String validate(String num)
     {
 
@@ -19,6 +20,8 @@ public class RomanConvertor {
         return "";
     }
 
+=======
+>>>>>>> 7e9baea5b9d780098290a04c036ffe3116a3bd2a
     public final static int rtoi(String num) {
         Map<Character, Integer> ht = new HashMap<Character, Integer>();
         ht.put('I', 1);
@@ -28,7 +31,18 @@ public class RomanConvertor {
         ht.put('V', 5);
         ht.put('L', 50);
         ht.put('D', 500);
+<<<<<<< HEAD
 
+=======
+        String nonValidNumerals[]={"XXXX","IIII","CCCC","VV","LL","DD"};
+        for (String s:nonValidNumerals) {
+            if(num.contains(s))
+            {
+                System.out.println("Non valid numerals");
+                System.exit(0);
+            }
+        }
+>>>>>>> 7e9baea5b9d780098290a04c036ffe3116a3bd2a
         int intNum = 0;
         int prev = 0;
         for (int i = num.length() - 1; i >= 0; i--) {

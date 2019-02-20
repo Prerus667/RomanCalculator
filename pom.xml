@@ -16,7 +16,10 @@
                     <source>6</source>
                     <target>6</target>
                 </configuration>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7e9baea5b9d780098290a04c036ffe3116a3bd2a
             </plugin>
         </plugins>
     </build>
